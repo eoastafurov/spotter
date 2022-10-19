@@ -1,5 +1,5 @@
 # Настройка окружения
-```python
+```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -8,7 +8,7 @@ pip install -r requirements.txt
 # Запуск
 Для запуска необходимо настроить параметры модели в `config.ExpConfig` под желаемые, 
 затем запуск через CLI:
-```python
+```bash
 python run.py
 ```
 Дополнительно параметры `SWA` и других callbacks можно настроить непосредственно в `main.py`.
